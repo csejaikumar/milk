@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: azure;
+}
+
+body .container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.total{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+
+.date{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.date h1{
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.date input{
+    margin-top: 25px;
+}
+
+.entry{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    padding-bottom: 20px;
+    background-color: cadetblue;
+    border-radius: 30px;
+}
+
+.box .input{
+
+    margin: 10px 15px 0 15px;
+    padding: 25px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.image{
+    width: 300px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.image img{
+    width: 150px;
+    height: 150px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    background-color: turquoise;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.qty{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.qty select{
+    width: 100px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -10px;
+}
+
+.price input{
+    width: 96px;
+}
+
+.table{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+table, th, td{
+    width: 90vw;
+    border:1px solid black;
+}
